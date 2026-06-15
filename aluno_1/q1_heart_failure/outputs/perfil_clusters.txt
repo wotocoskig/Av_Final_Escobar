@@ -1,0 +1,9 @@
+PERFIL DOS CLUSTERS (medias por grupo)
+============================================================
+Obs.: taxa_death_event = fracao de obitos no grupo (caracterizacao).
+DEATH_EVENT NAO foi usado no treino do clustering.
+
+               age   anaemia  creatinine_phosphokinase  diabetes  ejection_fraction  high_blood_pressure      platelets  serum_creatinine  serum_sodium       sex   smoking        time  taxa_death_event  n_pacientes
+cluster                                                                                                                                                                                                               
+0        55.862749  0.449198                587.443850   0.44385          39.267380             0.320856  273601.050053          1.063850    138.122995  0.620321  0.310160  158.962567          0.139037          187
+1        69.133929  0.401786                572.482143   0.37500          36.107143             0.401786  246255.842768          1.944911    134.125000  0.696429  0.339286   82.339286          0.625000          112

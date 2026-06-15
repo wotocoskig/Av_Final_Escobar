@@ -1,0 +1,17 @@
+{
+  "modelo_vencedor": "RandomForest",
+  "criterio_selecao": "F1-macro (desempate por acuracia global)",
+  "acuracia_global": 0.6923076923076923,
+  "acuracia_acaso_majoritaria": 0.43615384615384617,
+  "f1_macro": 0.3958849509390161,
+  "f1_weighted": 0.6791808969654307,
+  "acuracia_por_classe": {
+    "3": 0.0,
+    "4": 0.11627906976744186,
+    "5": 0.7102803738317757,
+    "6": 0.8059964726631393,
+    "7": 0.5601851851851852,
+    "8": 0.3333333333333333,
+    "9": 0.0
+  }
+}

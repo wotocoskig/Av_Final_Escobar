@@ -1,0 +1,352 @@
+{
+  "dados_sinteticos_placeholder": true,
+  "random_state": 42,
+  "n_linhas_dataset": 4000,
+  "features": [
+    "gender",
+    "city_category",
+    "occupation",
+    "stay_years",
+    "marital_status",
+    "purchase_amount",
+    "quantity"
+  ],
+  "alvos": {
+    "product_category": {
+      "classes": [
+        "Eletronicos",
+        "Roupas",
+        "Casa",
+        "Alimentos",
+        "Beleza",
+        "Brinquedos",
+        "Esportes"
+      ],
+      "acuracia_global": 0.287,
+      "acuracia_acaso_majoritaria": 0.211,
+      "f1_macro": 0.24848047681720326,
+      "f1_ponderado": 0.2698103069447167,
+      "matriz_confusao": [
+        [
+          19,
+          5,
+          12,
+          14,
+          6,
+          5,
+          72
+        ],
+        [
+          8,
+          37,
+          24,
+          16,
+          36,
+          1,
+          10
+        ],
+        [
+          14,
+          18,
+          35,
+          20,
+          31,
+          1,
+          59
+        ],
+        [
+          16,
+          24,
+          31,
+          17,
+          23,
+          0,
+          46
+        ],
+        [
+          5,
+          34,
+          19,
+          19,
+          60,
+          0,
+          12
+        ],
+        [
+          4,
+          1,
+          7,
+          3,
+          5,
+          4,
+          16
+        ],
+        [
+          36,
+          5,
+          29,
+          19,
+          1,
+          6,
+          115
+        ]
+      ],
+      "por_classe": {
+        "Eletronicos": {
+          "sensibilidade": 0.1429,
+          "especificidade": 0.9043,
+          "acuracia_classe": 0.803,
+          "suporte": 133
+        },
+        "Roupas": {
+          "sensibilidade": 0.2803,
+          "especificidade": 0.8998,
+          "acuracia_classe": 0.818,
+          "suporte": 132
+        },
+        "Casa": {
+          "sensibilidade": 0.1966,
+          "especificidade": 0.8516,
+          "acuracia_classe": 0.735,
+          "suporte": 178
+        },
+        "Alimentos": {
+          "sensibilidade": 0.1083,
+          "especificidade": 0.8921,
+          "acuracia_classe": 0.769,
+          "suporte": 157
+        },
+        "Beleza": {
+          "sensibilidade": 0.4027,
+          "especificidade": 0.8801,
+          "acuracia_classe": 0.809,
+          "suporte": 149
+        },
+        "Brinquedos": {
+          "sensibilidade": 0.1,
+          "especificidade": 0.9865,
+          "acuracia_classe": 0.951,
+          "suporte": 40
+        },
+        "Esportes": {
+          "sensibilidade": 0.545,
+          "especificidade": 0.7275,
+          "acuracia_classe": 0.689,
+          "suporte": 211
+        }
+      },
+      "n_treino": 3000,
+      "n_teste": 1000
+    },
+    "payment_method": {
+      "classes": [
+        "Cartao_Credito",
+        "Cartao_Debito",
+        "PIX",
+        "Dinheiro",
+        "Boleto"
+      ],
+      "acuracia_global": 0.37,
+      "acuracia_acaso_majoritaria": 0.313,
+      "f1_macro": 0.2727370973074298,
+      "f1_ponderado": 0.33873445249502665,
+      "matriz_confusao": [
+        [
+          212,
+          27,
+          48,
+          15,
+          11
+        ],
+        [
+          81,
+          18,
+          65,
+          18,
+          5
+        ],
+        [
+          61,
+          43,
+          105,
+          35,
+          11
+        ],
+        [
+          28,
+          9,
+          72,
+          31,
+          9
+        ],
+        [
+          35,
+          16,
+          28,
+          13,
+          4
+        ]
+      ],
+      "por_classe": {
+        "Cartao_Credito": {
+          "sensibilidade": 0.6773,
+          "especificidade": 0.7016,
+          "acuracia_classe": 0.694,
+          "suporte": 313
+        },
+        "Cartao_Debito": {
+          "sensibilidade": 0.0963,
+          "especificidade": 0.8831,
+          "acuracia_classe": 0.736,
+          "suporte": 187
+        },
+        "PIX": {
+          "sensibilidade": 0.4118,
+          "especificidade": 0.7141,
+          "acuracia_classe": 0.637,
+          "suporte": 255
+        },
+        "Dinheiro": {
+          "sensibilidade": 0.2081,
+          "especificidade": 0.9048,
+          "acuracia_classe": 0.801,
+          "suporte": 149
+        },
+        "Boleto": {
+          "sensibilidade": 0.0417,
+          "especificidade": 0.9602,
+          "acuracia_classe": 0.872,
+          "suporte": 96
+        }
+      },
+      "n_treino": 3000,
+      "n_teste": 1000
+    },
+    "age_group": {
+      "classes": [
+        "0-17",
+        "18-25",
+        "26-35",
+        "36-45",
+        "46-50",
+        "51-55",
+        "55+"
+      ],
+      "acuracia_global": 0.417,
+      "acuracia_acaso_majoritaria": 0.207,
+      "f1_macro": 0.40611458452210464,
+      "f1_ponderado": 0.4160355668359747,
+      "matriz_confusao": [
+        [
+          25,
+          20,
+          10,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          15,
+          28,
+          27,
+          17,
+          3,
+          0,
+          0
+        ],
+        [
+          13,
+          21,
+          39,
+          42,
+          17,
+          1,
+          0
+        ],
+        [
+          0,
+          6,
+          30,
+          66,
+          40,
+          13,
+          2
+        ],
+        [
+          1,
+          2,
+          11,
+          42,
+          56,
+          40,
+          10
+        ],
+        [
+          0,
+          0,
+          3,
+          13,
+          34,
+          89,
+          68
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          9,
+          71,
+          114
+        ]
+      ],
+      "por_classe": {
+        "0-17": {
+          "sensibilidade": 0.4386,
+          "especificidade": 0.9692,
+          "acuracia_classe": 0.939,
+          "suporte": 57
+        },
+        "18-25": {
+          "sensibilidade": 0.3111,
+          "especificidade": 0.9462,
+          "acuracia_classe": 0.889,
+          "suporte": 90
+        },
+        "26-35": {
+          "sensibilidade": 0.2932,
+          "especificidade": 0.9066,
+          "acuracia_classe": 0.825,
+          "suporte": 133
+        },
+        "36-45": {
+          "sensibilidade": 0.4204,
+          "especificidade": 0.8624,
+          "acuracia_classe": 0.793,
+          "suporte": 157
+        },
+        "46-50": {
+          "sensibilidade": 0.3457,
+          "especificidade": 0.8771,
+          "acuracia_classe": 0.791,
+          "suporte": 162
+        },
+        "51-55": {
+          "sensibilidade": 0.43,
+          "especificidade": 0.8424,
+          "acuracia_classe": 0.757,
+          "suporte": 207
+        },
+        "55+": {
+          "sensibilidade": 0.5876,
+          "especificidade": 0.9007,
+          "acuracia_classe": 0.84,
+          "suporte": 194
+        }
+      },
+      "n_treino": 3000,
+      "n_teste": 1000
+    }
+  }
+}
